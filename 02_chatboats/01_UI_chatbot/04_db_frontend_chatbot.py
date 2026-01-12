@@ -84,6 +84,7 @@ if user_input:
 
     CONFIG = {
         "configurable": {"thread_id": st.session_state["thread_id"]},
+        # this will help the langsmith to trace the thread---------------------------------
         "metadata": {
             "thread_id": st.session_state["thread_id"]
         },
